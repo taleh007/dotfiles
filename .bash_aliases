@@ -1,0 +1,13 @@
+alias g="git"
+alias r="rails"
+alias rs="rails s"
+alias rc="rails c"
+alias gdf="git diff"
+alias gaa="git add ."
+alias gcm="git commit -m"
+alias gps="git push"
+alias gst="git status"
+alias rakedcm="rake db:drop db:create db:migrate"
+alias bi="bundle install"
+alias bu="bundle update"
+alias cls='printf "\033c"'
