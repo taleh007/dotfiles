@@ -13,7 +13,8 @@ alias gaa="git add ."
 alias gcm="git commit -m"
 alias gps="git push"
 alias gst="git status"
-alias ggrog="git grog"
+alias grog="git grog"
+alias hrog="git hlog"
 
 # Cool perks
 alias cls='printf "\033c"'

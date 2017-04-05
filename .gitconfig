@@ -10,6 +10,7 @@
 	st = status
 	co = checkout
 	br = branch
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	df = diff
 	commend = commit --amend --no-edit
-	lg2 = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	hlog = log --all --graph --pretty='format:%C(blue)%ar%C(reset) %C(yellow)%h%C(reset) %C(blue)%s%C(reset) %C(magenta)[%an]%C(reset)%C(green)%d%C(reset)'
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
